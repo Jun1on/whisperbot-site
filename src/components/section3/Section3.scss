@@ -1,0 +1,145 @@
+#section3-area {
+    padding: 90px 0 100px;
+    @media all and (max-width: 575px) {
+        padding: 50px 0 60px;
+    }
+    a {
+        text-decoration: none;
+    }
+    h2 {
+        color: #fff;
+        font-family: Chivo;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 60px;
+        white-space: nowrap;
+        margin: 0;
+        @media all and (max-width: 1300px) {
+            font-size: 42px;
+            line-height: 48px;
+        }
+        @media all and (max-width: 1070px) {
+            font-size: 36px;
+            line-height: 42px;
+        }
+        @media all and (max-width: 991px) {
+            font-size: 36px;
+            line-height: 42px;
+        }
+        @media all and (max-width: 575px) {
+            font-size: 24px;
+            line-height: 24px;
+        }
+    }
+
+    p {
+        color: #fff;
+        font-family: Chivo;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 26px;
+        margin: 0;
+        max-width: 580px;
+        @media all and (max-width: 575px) {
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 700;
+        }
+    }
+
+    .start-trading-btn {
+        border-radius: 20px;
+        background: #a9ddf3;
+        display: flex;
+        padding: 14px 60px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border: none;
+        font-weight: 900;
+        font-family: Chivo;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 26px;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+            transform: scale(0.95);
+        }
+        @media all and (max-width: 575px) {
+            padding: 10px 30px;
+        }
+    }
+
+    .content-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 80px;
+        @media all and (max-width: 1300px) {
+            gap: 50px;
+        }
+        @media all and (max-width: 991px) {
+            grid-template-columns: repeat(1, 1fr);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+    }
+    .left-side {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: flex-start;
+        @media all and (max-width: 991px) {
+            gap: 20px;
+        }
+    }
+    .right-side {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        height: 100%;
+        button {
+            color: rgba(255, 255, 255, 0.3);
+            font-family: Chivo;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+            padding: 15px 20px;
+            border-radius: 50px;
+            border: 1px solid var(--neutral-white-30, rgba(255, 255, 255, 0.3));
+            background-color: transparent;
+            transition: all 0.3s ease-in-out;
+            &:hover {
+                transform: scale(0.95);
+            }
+
+            @media all and (max-width: 1300px) {
+                padding: 12px 15px;
+            }
+            @media all and (max-width: 575px) {
+                font-size: 16px;
+                padding: 5px 15px;
+            }
+        }
+        button.light {
+            color: #fff;
+            border: 1px solid #fff;
+        }
+
+        .btn-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            justify-content: center;
+            @media all and (max-width: 1070px) {
+                gap: 15px;
+            }
+            @media all and (max-width: 991px) {
+                justify-content: space-evenly;
+            }
+        }
+    }
+}

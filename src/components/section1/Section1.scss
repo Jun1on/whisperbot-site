@@ -1,0 +1,33 @@
+#section1-area {
+    padding: 50px 0;
+    @media all and (max-width: 991px) {
+        padding: 40px 0;
+    }
+    @media all and (max-width: 575px) {
+        padding: 25px 0;
+    }
+    h1 {
+        color: #fff;
+        font-family: Chivo;
+        font-size: 96px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 106px;
+        @media all and (max-width: 1200px) {
+            font-size: 66px;
+            line-height: 76px;
+        }
+        @media all and (max-width: 991px) {
+            font-size: 46px;
+            line-height: 56px;
+        }
+        @media all and (max-width: 575px) {
+            font-size: 36px;
+            line-height: 42px;
+        }
+        @media all and (max-width: 425px) {
+            font-size: 28px;
+            line-height: 28px;
+        }
+    }
+}

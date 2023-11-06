@@ -1,0 +1,121 @@
+#section4-area {
+    padding-bottom: 109px;
+    @media all and (max-width: 991px) {
+        padding-bottom: 89px;
+    }
+    @media all and (max-width: 575px) {
+        padding-bottom: 75px;
+    }
+    h2 {
+        text-align: center;
+        font-family: Chivo;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 60px;
+        background: linear-gradient(279deg, #2cc0ff 3.36%, #fbe4ff 48.72%, #ffd29d 99.06%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        @media all and (max-width: 991px) {
+            font-size: 42px;
+            line-height: 48px;
+        }
+        @media all and (max-width: 575px) {
+            font-size: 28px;
+            line-height: 36px;
+        }
+    }
+    button {
+        color: #fff;
+        text-align: center;
+        font-family: Chivo;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 45px;
+        width: 380px;
+        height: 144px;
+        padding: 25px 30px 27px 30px;
+        background-color: transparent;
+        border-radius: 20px;
+        border: 2px solid #a9ddf3;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+            transform: scale(0.95);
+        }
+        @media all and (max-width: 1250px) {
+            width: 320px;
+            height: 114px;
+            padding: 15px 10px 17px 20px;
+            font-size: 28px;
+            line-height: 36px;
+        }
+        @media all and (max-width: 991px) {
+            width: 250px;
+            height: 114px;
+            padding: 10px 10px 10px 10px;
+            font-size: 24px;
+            line-height: 28px;
+        }
+        @media all and (max-width: 850px) {
+            width: 230px;
+            height: 84px;
+            padding: 5px 10px 5px 10px;
+            font-size: 20px;
+            line-height: 28px;
+        }
+        @media all and (max-width: 715px) {
+            width: 300px;
+            height: 74px;
+        }
+    }
+    a {
+        text-decoration: none;
+    }
+
+    button.buy-uniswap-btn {
+        color: #06050f;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(279deg, #2cc0ff 3.36%, #fbe4ff 48.72%, #ffd29d 99.06%);
+        gap: 10px;
+    }
+
+    .btn-group {
+        padding-top: 68px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        @media all and (max-width: 850px) {
+            gap: 20px;
+        }
+        @media all and (max-width: 715px) {
+            flex-direction: column;
+        }
+        @media all and (max-width: 575px) {
+            padding-top: 38px;
+        }
+    }
+
+    .last-btn-md-none {
+        @media all and (max-width: 715px) {
+            display: none;
+        }
+    }
+    .btn-md-show {
+        @media all and (min-width: 715px) {
+            display: none;
+        }
+    }
+    .double-btn {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        @media all and (max-width: 850px) {
+            gap: 20px;
+        }
+    }
+}
